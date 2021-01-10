@@ -1,4 +1,17 @@
 ## Changes
+2021-01-10: Quick n Dirty patch to compile on RPi4 (Manjaro, kernel 5.4)
+
+## Quick usage:
+
+* git clone this repo
+* cd rtl8812au
+* make
+* sudo make install
+* sudo modprobe 8821au
+
+And dongle should be detected by system...
+  
+
 2019-07-11: Updated to compile against kernel 5.2
 
 ## Realtek 802.11ac (rtl8812au)
